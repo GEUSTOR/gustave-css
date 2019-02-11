@@ -1,0 +1,47 @@
+/*
+* -----------------------------------------------------------------------------
+* GENERAL
+*-----------------------------------------------------------------------------
+*/
+
+.section {
+    margin: 100px 50px;
+}
+
+@media (max-width: 991px) {
+    .section {
+        margin: 50px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        margin: 25px 20px;
+    }
+}
+
+/*  Body background color changes on devices screen */
+
+body {
+    background-color: #FFF;
+}
+
+@media (max-width: 991px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+}
+
+.image {
+    height: 100vh;
+}
+
+.image--half {
+    height: 50vh;
+}
